@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+char a[20];
+int i;
+clrscr();
+cout<<"enter the name "<<endl;
+cin>>a;
+for(i=0;a[i]!='\0';i++)
+cout<<"length of the string"<<a<<"is"<<i;
+getch();
+return 0;
+}
